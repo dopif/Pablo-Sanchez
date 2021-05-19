@@ -1,10 +1,10 @@
 
 # Declarar las variables del bot para que te avise telegram
-TOKEN="1795143091:AAF9D5UHBNS6MnILWV3WBn0t8X869eINsCI"
-ID="900674370"
+TOKEN=""
+ID=""
 
 # Escribe la IP de tu red
-RED="192.168.1.1/24"
+RED="192.168.0.0/24"
 
 	# Archivo en el que apuntaremos las direcciones MAC conocidas (white list).
 	white_list=$(cat /home/pablopc/asir/Proyecto/scripts/IDS/white_list.txt | grep "MAC_Addres" | cut -c 13-30)
